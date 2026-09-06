@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Profile</title>
+    <title>Sonjoy - My Profile</title>
 
     <style>
         body {
@@ -30,12 +30,17 @@
             color: #555;
         }
 
-        button {
+        .contact {
+            display: inline-block;
             background-color: #007bff;
             color: white;
-            border: none;
+            text-decoration: none;
             padding: 10px 20px;
             border-radius: 5px;
+        }
+
+        .contact:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -44,11 +49,16 @@
 
     <div class="profile">
         <h1>My Profile</h1>
-        <h2>Your Name</h2>
+
+        <h2>Sonjoy</h2>
+
         <p>Student</p>
+
         <p>I am learning HTML and web development.</p>
-        <button>Contact Me</button>
+
+        <a class="contact" href="tel:018******">Contact Me</a>
     </div>
 
 </body>
 </html>
+
